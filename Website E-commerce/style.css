@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('img/background.jpg');
+}
+
+header{
+    width: 100%;
+    height: 250px;
+}
+.navBar{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.navBar ul{
+    list-style: none;
+}
+
+.navBar ul li {
+    display: inline-block;
+}
+
+.navBar li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 10px 30px;
+}
+
+.navBar li a:hover{
+    background-color:whitesmoke;
+    color: black;
+    border: 1px solid whitesmoke;
+}
+
+section{
+    margin: 0px 30px;
+}
+
+section h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    text-transform: capitalize;
+    opacity: 80%;
+}
+
+.hero{
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 30px;
+}
+
+.hero h3{
+    font-size: 30px;
+    color: black;
+    color: whitesmoke;
+}
+
+.hero li{
+    margin-top: 5px;
+    color: black;
+    color: whitesmoke;
+}
+
+.clubLogo{
+    margin-top: 150px;
+    text-align: center;
+    padding: 10px 15px;
+    opacity: 100%;
+}
+
+.clubLogo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.scm{
+    text-align: center;
+    padding: 5px 30px;
+}
+
+.scm h3{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.scm li{
+    margin-right: 3px;
+    display: inline-block;
+    padding: 0px 5x;
+}
+
+.scm img:hover{
+    opacity: 30%;
+}
+
+.scm img{
+    width: 50px;
+    height: 50px;
+    opacity: 100%;
+    margin-top: 5px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+footer h1{
+    font-family: monospace;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+

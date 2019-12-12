@@ -1,0 +1,58 @@
+body{
+    background-image: url("img/background.jpg");
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+
+
+.member{
+    display: inline;
+    width: 10px;
+}
+.card {    
+    width: 300px;
+    display: inline-block;
+}
+h2{
+    margin-top: 75px;
+
+}
+b{
+    color: black;
+}
+h3{
+    margin-top: 75px;
+}
+.navBar{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.navBar ul{
+    list-style: none;
+}
+.navBar ul li {
+    display: inline-block;
+}
+.navBar li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 10px 30px;
+}
+.navBar li a:hover{
+    background-color:whitesmoke;
+    color: black;
+    border: 1px solid whitesmoke;
+}
